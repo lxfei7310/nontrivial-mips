@@ -46,4 +46,13 @@
 `define DCACHE_WB_FIFO_DEPTH 2
 `define DBUS_TRANS_WIDTH     8
 
+`define ROB_SIZE             16
+`define CDB_SIZE             4
+`define MAX_RS_SIZE          8
+`define ALU_RS_SIZE          4
+`define ALU_FU_SIZE          4
+`define LSU_RS_SIZE          4
+`define LSU_FIFO_DEPTH       8
+`define BRANCH_RS_SIZE       2
+
 `endif
